@@ -6,3 +6,33 @@ body {
 h1 {
   color: #00B7FF;
 }
+
+ul{
+  list-style-type: none;
+
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.topBar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 10px;
+
+
+}
+
+.hidden{
+  display: none;
+}
+
+.iconsRight{
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+}
