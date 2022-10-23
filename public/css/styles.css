@@ -1,12 +1,15 @@
 body {
   font-family: 'Cormorant', Helvetica, serif;
-  font: 14px;
 }
 
 
 h2{
   font-size: 2rem;
   font-weight: 400;
+}
+
+p{
+  font-size: 1.2rem;
 }
 
 ul{
@@ -46,8 +49,7 @@ a{
   background-size: cover;
 }
 
-.amb{
-  height: 40vh;
+.description{
   max-width: 1500px;
   margin: 0 1rem;
 }
@@ -62,11 +64,12 @@ a{
 
 .types a{
   color: white;
-  padding: 1rem;
+  padding: 0.6rem 1rem;
   border: 1px solid white;
   background-color: rgba(0, 0, 0, 0.5);
 }
-.heroText{
+
+.buttonContainer{
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -74,6 +77,31 @@ a{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 2rem;
+
+}
+.button{
   padding: 4rem 0;
+}
+
+.note {
+  margin: 0 1rem;
+}
+
+.note p{
+  text-align: center;
+}
+
+.under{
+  text-decoration: underline;
+}
+
+.form{
+  display: flex;
+  justify-content: space-between;
+}
+
+.form .input{
+  border: 0px;
 
 }
