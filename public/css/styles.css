@@ -1,5 +1,6 @@
 :root{
   --brown: #d3c8b6;
+  --gray: #e1e1dd;
 }
 
 
@@ -42,20 +43,24 @@ a{
 }
 
 .iconLeft{
-  width: 15%;
+  width: 20%;
 }
 
 .iconsRight{
-  width: 15%;
+  width: 20%;
   display: flex;
   justify-content: space-between;
 }
 
-.containerHeader{
+.containerMainHeader{
   background-image: url('../img/Colgantes.webp');
   height: 60vh;
   background-position: center;
   background-size: cover;
+}
+
+.containerHeader{
+  background: linear-gradient(180deg, var(--gray) 60%, rgba(255,255,255,1) 100%);
 }
 
 .description{
@@ -152,3 +157,4 @@ a{
 .social p{
   margin-bottom: 0;
 }
+

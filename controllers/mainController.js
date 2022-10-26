@@ -4,6 +4,9 @@ const controller = {
     },
     error: (req, res) => {
         res.render('error');
+    },
+    lamps: (req, res) => {
+        res.render('lamps');
     }
 }
 

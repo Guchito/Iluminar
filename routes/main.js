@@ -5,5 +5,6 @@ const mainController = require('../controllers/mainController');
 /* GET home page. */
 router.get('/', mainController.index);
 router.get('/error', mainController.error);
+router.get('/lamps',mainController.lamps)
 
 module.exports = router;
