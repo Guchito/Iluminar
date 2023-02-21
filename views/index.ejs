@@ -6,7 +6,10 @@
         <%- include ('./partials/header') %>
 
     </header>
-
+    
+    
+    <%- include ('./partials/news') %>
+    
     <div class="description">
 
         <h2>Crea ambiente</h2>
@@ -15,21 +18,23 @@
        
     </div>
 
+    <%- include ('./partials/offers') %>
+
     <section class="types">
         <img src="img/balloon_01.webp" alt="Lámparas colgantes">
         <div class="buttonContainer">
-            <a class="button" href="/products/lamps">Lámparas colgantes</a>
-        </div>
-    </section>
-    <section class="types">
-        <img src="img/living-sillones.webp" alt="Lámparas de pie">
-        <div class="buttonContainer">
-            <a class="button" href="/lamps">Lámparas de pie</a>
+            <a class="button" href="/products/lamps">Paneles</a>
         </div>
     </section>
     <div class="note">
         <p>Nuestra colección de lámparas se puede entregar en 4-5 días laborables.</p>
     </div>
+    <section class="types">
+        <img src="img/living-sillones.webp" alt="Lámparas de pie">
+        <div class="buttonContainer">
+            <a class="button" href="/lamps">Iluminacion</a>
+        </div>
+    </section>
     <section class="types">
         <img src="img/reflection-series (2).webp" alt="Lámparas de pared">
         <div class="buttonContainer">
@@ -70,6 +75,8 @@
     </div>
 
     <%- include ('./partials/footer') %>
-    
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
