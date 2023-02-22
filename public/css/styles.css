@@ -103,12 +103,15 @@ a{
 
 .price{
   background-color: black;
-  margin: 0;
+  margin: 5px 0;
   color: var(--brown);
+  padding: 0 10px;
 }
 
 .price p{
   margin: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .discountContainer{
@@ -117,6 +120,24 @@ a{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 10px;
+}
+
+.discountContainer h3 {
+  margin: 0;
+}
+
+.discount h3{
+  display: flex;
+  align-items: center;
+  height: 25px;
+  padding: 0 10px;
+}
+
+.discount{
+  
+  background-color: black;
+  color: var(--brown);
 }
 
 .oldPrice{
